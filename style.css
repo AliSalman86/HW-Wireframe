@@ -14,7 +14,7 @@ body {
     max-width: 960px;
 }
 
-.row , header, footer, nav {
+header, footer, nav {
     max-width: 100%;
     background-color: #ebebeb;
 }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, nav, p, footer, header {
     font-weight: normal;
 }
 
-.row2 {
+.row {
     max-width: 100%;
     display: flex;
 }
@@ -53,6 +53,10 @@ h1, h2, h3, h4, nav, p, footer, header {
     margin: 0 auto;
 }
 
+.article h2 {
+    color: #ebebeb;
+}
+
 .arti-sec1, .arti-sec2 {
     width: 90%;
     height: 50px;
@@ -67,10 +71,6 @@ h1, h2, h3, h4, nav, p, footer, header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-}
-
-.arti-head h2 {
-    color: #ebebeb;
 }
 
 .section h2, p {
