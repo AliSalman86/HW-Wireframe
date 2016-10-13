@@ -1,0 +1,50 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #777;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.row2 {
+    max-width: 51%;
+    height: 350px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article {
+    max-width: 90%;
+    height: 250px;
+    background-color: #777;
+    margin: 0 auto;
+}
+
+.arti-sec1, .arti-sec2 {
+    max-width: 90%;
+    height: 50px;
+    background-color: #ebebeb;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, nav, p {
+    text-align: center;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 20px;
+}
